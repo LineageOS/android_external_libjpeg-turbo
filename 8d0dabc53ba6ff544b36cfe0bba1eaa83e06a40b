@@ -22,6 +22,30 @@
       "revId": "8d0dabc53ba6ff544b36cfe0bba1eaa83e06a40b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "27ab125a_374fb732",
+        "filename": "turbojpeg.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 655,
+      "author": {
+        "id": 17868
+      },
+      "writtenOn": "2019-11-14T07:17:17Z",
+      "side": 1,
+      "message": "You are right. I checked the generated ninja script and external/libjpeg-turbo/Android.mk and neither turbojpeg.c nor tjbench.c are included in compilation. However, for consistency with ASB I checked the compilation of all C files and ran tjbench on device.",
+      "parentUuid": "965e241e_fd9ad8eb",
+      "range": {
+        "startLine": 652,
+        "startChar": 1,
+        "endLine": 655,
+        "endChar": 2
+      },
+      "revId": "8d0dabc53ba6ff544b36cfe0bba1eaa83e06a40b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
